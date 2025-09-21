@@ -17,7 +17,7 @@ It then calculates the total interest and final amount using the formula
 
 
 
-[Web4 Project Link](N220/homework-three/interestcalc.html)
+[Web4 Project Link](http://127.0.0.1:5500/homework-three/interestcalc.html)
 
 
 
