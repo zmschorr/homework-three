@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interest Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="interestcalc.js" defer></script>
+</head>
+<body>
+  <h1>Interest Calculator</h1>
+  
+  <div>
+    <label>Principle: <input type="number" id="principle"></label><br>
+    <label>Interest Rate (%): <input type="number" id="rate" step="0.01"></label><br>
+    <label>Time (years): <input type="number" id="time"></label><br><br>
+    <button onclick="calculateInterest()">Calculate</button>
+  </div>
+
+  <div id="results" style="margin-top:20px; font-weight:bold;"></div>
+</body>
+</html>
